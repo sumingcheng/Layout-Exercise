@@ -1,25 +1,21 @@
 .main {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: whitesmoke;
 }
 
 * {
-    font-size: 20px
+    background-color: #ffffff;
 }
 
-.div1 {
-    /*display: none;*/
-    width: 200px;
-    height: 200px;
-    background-color: skyblue;
+h1 {
+    border: 1px solid #172c45;
+    padding: 10px;
+    background-color: palegoldenrod;
 }
 
-.div2 {
-    /*visibility: hidden;*/
-    width: 200px;
-    height: 200px;
-    background-color: orange;
+.h1 {
+    background-color: lightpink;
+}
+
+#h1 {
+    background-color: deepskyblue;
 }

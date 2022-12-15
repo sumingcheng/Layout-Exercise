@@ -10,8 +10,14 @@
 </head>
 <body>
 <div class="main">
-  <div class="div1">display: none;不保留元素位置</div>
-  <div class="div2">visibility: hidden;保留元素位置</div>
+  <h1><span>！important > 行内 > id > 类 = 属性 = 伪类 > 标签 = 伪元素 > 通配符</span></h1>
+  <h1>统配选择器*：<span>权重0000</span></h1>
+  <h1>元素选择器：<span>权重0001</span></h1>
+  <h1 class="h1">类选择器：<span>权重0010</span></h1>
+  <h1 id="h1">ID 选择器：<span>权重0100</span></h1>
+  <h1 style="background-color: aquamarine">在元素标签内直接添加 style：<span>权重1000</span></h1>
+  <h1 style="background-color: crimson !important">!important ：<span>会覆盖页面内任何位置的元素样式</span></h1>
+  <h1>继承的样式没有权值</h1>
 </div>
 </body>
 </html>

@@ -3,6 +3,10 @@ h1 {
     padding: 0 30px;
 }
 
+body {
+    position: relative;
+}
+
 .div {
     position: absolute;
     top: 50%;
@@ -13,3 +17,12 @@ h1 {
     background-color: orange;
 }
 
+.child {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    height: 300px;
+    transform: translate(-50%, -50%);
+    background-color: pink;
+}

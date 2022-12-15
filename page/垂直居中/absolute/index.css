@@ -1,0 +1,15 @@
+h1 {
+    color: #000;
+    padding: 0 30px;
+}
+
+.div {
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    width: 300px;
+    height: 300px;
+    transform: translate(0%, -50%);
+    background-color: orange;
+}
+

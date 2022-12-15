@@ -1,21 +1,25 @@
 .main {
-    background-color: whitesmoke;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 * {
-    background-color: #ffffff;
+    font-size: 20px
 }
 
-h1 {
-    border: 1px solid #172c45;
-    padding: 10px;
-    background-color: palegoldenrod;
+.div1 {
+    /*display: none;*/
+    width: 200px;
+    height: 200px;
+    background-color: skyblue;
 }
 
-.h1 {
-    background-color: lightpink;
-}
-
-#h1 {
-    background-color: deepskyblue;
+.div2 {
+    /*visibility: hidden;*/
+    width: 200px;
+    height: 200px;
+    background-color: orange;
 }

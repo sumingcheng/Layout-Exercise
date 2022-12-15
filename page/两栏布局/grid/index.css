@@ -1,0 +1,20 @@
+h1 {
+    color: #fff;
+    padding: 0 30px;
+}
+
+.main {
+    display: grid;
+    height: 100%;
+    grid-template-columns: 30% 70%;
+}
+
+.left {
+    background-color: orange;
+}
+
+.right {
+    background-color: #172c45;
+}
+
+

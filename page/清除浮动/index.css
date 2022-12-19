@@ -1,0 +1,39 @@
+.main1 {
+    border: 5px solid #000;
+    overflow: hidden;
+}
+
+.div1 {
+    width: 100px;
+    height: 100px;
+    float: left;
+    background-color: pink;
+}
+
+.div2 {
+    width: 100px;
+    height: 100px;
+    float: left;
+    background-color: #8cd442;
+}
+
+.main2 {
+    border: 5px solid #000;
+}
+
+.main3 {
+    border: 5px solid #000;
+}
+
+/* 必须是after */
+.clearFix::after {
+    content: '';
+    display: block;
+    clear: both;
+    visibility: hidden;
+}
+
+.main4 {
+    border: 5px solid #000;
+}
+
